@@ -8,6 +8,14 @@ const adventurer = {
   },
 };
 
-adventurer.forEach((inventory) => {
-  console.log(inventory[i]);
+adventurer.companion.companion = {
+  name: "Frank",
+  type: "Flea",
+  belongings: ["small hat", "sunglasses"],
+};
+
+adventurer.roll;
+
+adventurer.inventory.forEach((item) => {
+  console.log(item);
 });
